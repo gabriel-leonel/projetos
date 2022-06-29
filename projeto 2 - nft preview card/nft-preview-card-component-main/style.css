@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root{
+    --cor00: hsl(214, 24%, 53%);
+    --cor01: hsl(178, 100%, 50%);
+    --cor02: hsl(217, 54%, 11%);
+    --cor03: hsl(216, 50%, 16%);
+    --cor04: hsl(215, 32%, 27%);
+    --cor05: hsl(0, 0%, 100%);
+}
+*{
+
+}
+body{
+    background-color: var(--cor02);
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;
+}
+
+#cartao{
+    background-color: var(--cor03);
+    width: 50vh;
+    margin: 10vh auto 0px auto;
+    height: 77vh;
+    border-radius: 15px;
+    box-shadow: 5px 20px 11px 10px #0a1423c2;
+}
+
+#eqimg {
+    margin-top: 3vh;
+    border-radius: 5px;
+}
+
+#conteudo{
+    margin: 0 auto;
+    min-width: 250px;
+    max-width: 20.4vw;
+    color: var(--cor00);
+}
+
+#titulo>h1{
+    font-size: large;
+    color: var(--cor05);
+    margin-bottom: 8px;
+}
+
+#centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+#preco{
+    margin-top: 10px;
+}
+
+#preco>span{
+    color: var(--cor01);
+    font-size: small;
+    margin: 0px 13vh 0px 0px;
+}
+
+#ethimg{
+    margin-bottom: -3.5px;
+    margin-right: 2px;
+}
+
+#rodape{
+    border-top: 1px solid #6a829e3d;
+    margin-top: 2vw;
+    display: flex;
+}
+
+#iconeimg{
+    border: 1px solid var(--cor05);
+    border-radius: 100%;
+    margin: 1.5vh 0vh 0vh 1vh;
+}
+
+#rodape>p{
+    margin: 2vh 0vh 0vh 6%;
+    font-size: 2.5vh;
+}
+
+#whi{
+    color: var(--cor05);
+}
+
+.attribution{
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor00:hsl(30, 38%, 92%);
+    --cor01:hsl(158, 36%, 37%);
+    --cor02:hsl(212, 21%, 14%);
+    --cor03:hsl(228, 12%, 48%);
+    --cor04:hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--cor00);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: white;
+    margin: 32px 320px;
+    display: flex;
+    border-radius: 10px;
+    height: 28.14rem;
+}
+
+#divimg{
+    margin-bottom: -3.5px;
+}
+
+#img{
+    border-radius: 10px 0px 0px 10px;
+}
+
+#divtxt{
+    font-size: small;
+    padding: 2em 2em 1em 2em;
+    width: 15em;
+}
+
+#pfm{
+    letter-spacing: 0.4em;
+    font-size: smaller;
+}
+
+#titulo{
+    font-family: 'Fraunces',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0em -2em 1em 0em;
+    color: var(--cor02);
+}
+
+.content{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: var(--cor03);
+}
+
+#divcompra{
+    margin: 1em 0em 0em 0em;
+    height: 7em;    
+}
+
+#preco01{
+    padding-right: 15px;
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    color: var(--cor01);
+}
+#preco02{
+    color: var(--cor03);
+    text-decoration: line-through;
+    position: relative;
+    bottom: 6px;
+}
+#botao{
+    height: 3em;
+    width: 16.5em;
+    border: 0px;
+    border-radius: 8px;
+    background-color: var(--cor01);
+    color: var(--cor04);
+}
+#carrinhotxt{
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    left: 10px;
+}
+#botao:hover{
+    background-color: hsl(157, 34%, 50%); 
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
