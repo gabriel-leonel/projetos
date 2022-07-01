@@ -6,8 +6,6 @@
     --cor03: hsl(218, 44%, 22%);
 }
 
-*{}
-
 body{ 
     background-color: var(--cor01);
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
