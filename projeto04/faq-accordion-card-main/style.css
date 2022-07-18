@@ -27,6 +27,10 @@
     font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
 }
 
+html{
+    font-size: 16px;
+}
+
 body{
     width: 98vw;
     height: 100vh;
@@ -34,11 +38,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--cor02);
+
 }
 
 #container{
     margin: 10vh auto auto auto;
-    height: 79vh;
+    max-height: 300vh;
+    min-height: 79vh;
     width: 65vw;
     background-color: white;
     background-position: -139% 59%;
@@ -47,7 +53,9 @@ body{
     background-image: url(images/bg-pattern-desktop.svg);
 }
 
-#pcimg{
+#pcimg{ /*~width="450" */
+    width: 450px;
+    max-width: 45vw;
     position: absolute;
     right: 56.5%;
     top: 22%;
@@ -65,7 +73,6 @@ body{
 }
 #perguntas{
     font-weight: normal;
-    font-size: 1vw;
     margin-top: 1vh;
 }
 p{
