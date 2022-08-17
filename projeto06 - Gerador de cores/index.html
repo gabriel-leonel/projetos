@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            color: white;
+        }
+        .container{
+            background-color: hsl(21, 100%, 100%);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        #botao{
+            text-align: center;
+        }
+        h1{            
+            text-align: center;
+            background-color: black;
+            border-radius: 5px;
+            padding: 2vh;
+        }
+        span{
+            color: hsl(213, 70%, 70%);
+        }
+        button{
+            width: 15vh;
+            height: 3.5vw;
+            color: white;
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition-duration: 0.3s;
+        }
+        button:hover{
+            background-color: rgba(19, 19, 19, 0.482);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="div1">
+            <h1>Background Color: <span id="span">#2d2d2d</span></h1> <br>
+        <div id="botao">
+            <button onclick="mudar()">CLICK ME</button>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -19,6 +19,7 @@ html{
 }
 
 body{
+    font-family: "Inter","Lexend Deca", Arial, Helvetica, sans-serif;
     background-color: var(--cor00);
     height: 100vh;
     max-height: 100vh;
@@ -36,8 +37,17 @@ body{
 
 #textleft{
     width: 50%;
+    margin: 0px 5%;
 }
-
+#textleft>p{
+    color: var(--cor04);    
+}
+#textleft>h2{
+    display: inline;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
 #imgright{
     width: 50%;
 }
