@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    height: 96.2vh;
+    width: 100vw;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffffc3;
+}
+
+#container{
+    margin: 10vh 19vw;
+    padding: 30vh 0vh 10vh 0vw;
+    text-align: center;
+}
+
+h1{
+    margin: -10vh 0vw 0vh 0vw;
+}
+h2{
+    font-size: 60px;
+}
+#divbotao{
+    margin: 0vh -3vw;
+    height: 10vh;
+}
+button{
+    width: 28%;
+    height: 8vh;
+    background-color: white;
+    border-radius: 5px;
+    cursor:pointer
+}
