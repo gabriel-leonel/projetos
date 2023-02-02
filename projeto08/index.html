@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Porcentagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <header><h1>Calculador de Porcentagem</h1></header>
+            
+                <div>
+                    <h2>Por favor, insira um número</h2> 
+                    <input type="number" name="" id="iptNum"> <!--background para icone ao lado--> <br>
+                    <div class="visible">
+                        <input type="range" name="" id="iptRange" min="0" max="20" onchange="calcular()">
+                            
+                                <h3>Resultado</h3>
+                                <div>
+                                    <p id="res"></p>
+                                </div>
+                    </div>
+                </div>
+        </div>
+    </main>
+    <footer class="sticky-footer">
+            <p>
+                Desenvolvido por <a target="_blank" href="https://github.com/Catatera">Gabriel Leonel</a>
+            </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
