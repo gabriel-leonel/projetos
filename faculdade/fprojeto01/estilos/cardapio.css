@@ -33,11 +33,11 @@ button:hover{
 }
 .btn1{
     float: left;
-    background-image: url(/imgs/flechaAnt.png);
+    background-image: url(../imgs/flechaAnt.png);
 }
 .btn2{
     float: right;
-    background-image: url(/imgs/flechaProx.png);
+    background-image: url(../imgs/flechaProx.png);
 }
 #container{
     text-align: center;
