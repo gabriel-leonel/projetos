@@ -1,0 +1,2 @@
+IMG pequena(página inicial) - 350x230
+IMG grande (background) - 1250x620
