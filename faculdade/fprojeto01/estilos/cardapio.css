@@ -1,91 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body{
+
+:root {
+    /*  Paleta de Cores */
+        --branco: #ffffff;
+        --preto: #101117;
+        --vermelho: #bd061e;
+        --marrom: #D5BBB1;
+        --verde: #268111;
+    /* Variações */
+        --verde-destaque: #bef66b;
+}
+
+body {
     margin: 0px;
     background-image: url(../imgs/lula-grande.jpg);
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 2vw;
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
     font-family: 'Kalam', Arial, Helvetica, sans-serif;
 }
-h1{
+
+h1 {
     display: inline-block;
     margin-top: 20px;
 }
-main{
+
+main {
     display: flex;
     justify-content: flex-end;
     margin: 2vw 3.5vw 0px 0px;
 }
-button{
+
+button {
     margin: 5vh 2vw;
     padding: 2.5vh;
     border: none;
-    border-radius: 10px;    
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: #ff692800;    
+    background-color: #ffffff00;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     padding: 3vh;
     transition: 0.08s;
 }
-.btn1{
+
+.btn1 {
     float: left;
     background-image: url(../imgs/flechaAnt.png);
 }
-.btn2{
+
+.btn2 {
     float: right;
     background-image: url(../imgs/flechaProx.png);
 }
-#container{
+
+#container {
     text-align: center;
     width: 60vw;
-    height: 85vh; /* Se der errado coloque 100% */
-    border: 2px solid #ff6a28;
+    height: 85vh;
+    /* Se der errado coloque 100% */
+    border: 2px solid var(--vermelho);
     border-radius: 10px;
-    background-color: #fffdf2;
+    background-color: var(--branco);
     overflow: auto;
     scroll-margin-left: 10vw;
 }
+
 #container::-webkit-scrollbar {
     width: 5px;
 }
 
 #container::-webkit-scrollbar-track {
-    background: #ff692849;
+    background: #a60a274e;
 }
 
 #container::-webkit-scrollbar-thumb {
-    background-color: #ff6a28;
+    background-color: #ff002fe8;
     border-radius: 8px;
 }
-ul{
+
+ul {
     margin: 0px 2vw;
     text-align: left;
 }
-li{
+
+li {
     margin: 3vh 0px;
 }
-#prato01{
-    display:inline;
+
+#prato01 {
+    display: inline;
 }
-#prato02{
+
+#prato02 {
     display: none;
 }
-#prato03{
+
+#prato03 {
     display: none;
 }
+
 footer {
     position: fixed;
     width: 100%;
     bottom: 0;
     text-align: center;
-    background-color: #ff692888;
+    background-color: #a8052354;
     font-size: 16px;
+    color: var(--branco);
+    padding-bottom: 0.5vw;
 }
-footer>a{
+
+footer>a {
     text-decoration: none;
-    color: #fffdf2e4;
+    color: var(--verde-destaque);
 }
