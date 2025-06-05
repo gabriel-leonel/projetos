@@ -1,12 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrotech - Inteligência no Campo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f5f9f5;
+      color: #2e3d2f;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 150px;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1618221199374-9cfa5b78f1a0');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .features, .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 40px;
+      margin-bottom: 1rem;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: #e8f5e9;
+    }
+
+    .cta button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      color: white;
+      background: #43a047;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .cta button:hover {
+      background: #388e3c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #4CAF50;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-    
+  <header>
+    <img src="/mnt/data/20250604_2103_Logo%20App%20Agrotech_simple_compose_01jwypbzv2f41t2yv8x20m3zm5.png" alt="Logo Agrotech">
+    <h1>Agrotech</h1>
+    <p>Inteligência no Campo</p>
+  </header>
+
+  <section class="hero">
+    <h2>Monitore sua lavoura em tempo real com sensores inteligentes</h2>
+  </section>
+
+  <section class="section">
+    <h3>Funcionalidades</h3>
+    <div class="features">
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/sensor.png" alt="Sensor">
+        <h4>Monitoramento em Tempo Real</h4>
+        <p>Acompanhe dados de temperatura, umidade e solo em qualquer lugar.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/alarm.png" alt="Alertas">
+        <h4>Alertas Inteligentes</h4>
+        <p>Receba notificações automáticas para condições críticas.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/combo-chart.png" alt="Analytics">
+        <h4>Análise de Dados</h4>
+        <p>Visualize gráficos e tendências para melhor tomada de decisão.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h3>Benefícios</h3>
+    <div class="benefits">
+      <div class="card">
+        <h4>Mais Produtividade</h4>
+        <p>Utilize os dados para otimizar a produção agrícola.</p>
+      </div>
+      <div class="card">
+        <h4>Acesso Remoto</h4>
+        <p>Controle e visualize tudo pelo celular ou computador.</p>
+      </div>
+      <div class="card">
+        <h4>Sustentabilidade</h4>
+        <p>Reduza desperdícios e preserve recursos naturais.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h3>Pronto para revolucionar sua lavoura?</h3>
+    <button>Experimente Agora</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Agrotech. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
