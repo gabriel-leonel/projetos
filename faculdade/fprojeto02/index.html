@@ -1,45 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Agrotech - Inteligência no Campo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header>
-    <img src="/mnt/data/20250604_2103_Logo%20App%20Agrotech_simple_compose_01jwypbzv2f41t2yv8x20m3zm5.png" alt="Logo Agrotech">
+    <img src="src/images/logo.jpeg" alt="Logo Agrotech" />
     <h1>Agrotech</h1>
     <p>Inteligência no Campo</p>
   </header>
 
-  <section class="hero">
+  <nav>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#funcionalidades">Funcionalidades</a></li>
+      <li><a href="#beneficios">Benefícios</a></li>
+      <li><a href="#publico">Público-Alvo</a></li>
+      <li><a href="#sectionForm">Formulário</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+      <h3>Quem Somos</h3>
+  <div class="about-container">
+    <div id="aboutDivider1">
+      <p>A Agrotech é uma empresa focada em soluções tecnológicas para o campo. Combinamos inovação, sustentabilidade e dados em tempo real para transformar a agricultura em uma atividade mais produtiva, inteligente e acessível. Nosso objetivo é empoderar produtores, técnicos e instituições com ferramentas modernas para a tomada de decisão.</p>
+    </div>
+    <div id="aboutDivider2">
+      <img src="src/images/about.jpeg" alt="Equipe Agrotech">
+    </div>
+  </div>
+
+  <section class="hero" id="inicio">
     <h2>Monitore sua lavoura em tempo real com sensores inteligentes</h2>
   </section>
 
-  <section class="section">
+  <section class="section" id="funcionalidades">
     <h3>Funcionalidades</h3>
     <div class="features">
       <div class="card">
-        <img src="https://img.icons8.com/ios-filled/50/sensor.png" alt="Sensor">
+        <img src="https://img.icons8.com/ios-filled/50/sensor.png" alt="Sensor" />
         <h4>Monitoramento em Tempo Real</h4>
         <p>Acompanhe dados de temperatura, umidade e solo em qualquer lugar.</p>
       </div>
       <div class="card">
-        <img src="https://img.icons8.com/ios-filled/50/alarm.png" alt="Alertas">
+        <img src="https://img.icons8.com/ios-filled/50/alarm.png" alt="Alertas" />
         <h4>Alertas Inteligentes</h4>
         <p>Receba notificações automáticas para condições críticas.</p>
       </div>
       <div class="card">
-        <img src="https://img.icons8.com/ios-filled/50/combo-chart.png" alt="Analytics">
+        <img src="https://img.icons8.com/ios-filled/50/combo-chart.png" alt="Analytics" />
         <h4>Análise de Dados</h4>
         <p>Visualize gráficos e tendências para melhor tomada de decisão.</p>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="beneficios">
     <h3>Benefícios</h3>
     <div class="benefits">
       <div class="card">
@@ -57,13 +80,67 @@
     </div>
   </section>
 
-  <section class="cta">
-    <h3>Pronto para revolucionar sua lavoura?</h3>
-    <button>Experimente Agora</button>
+  <section class="section" id="publico">
+    <h3>Público-Alvo</h3>
+    <div class="features">
+      <div class="card">
+        <h4>Produtores Rurais</h4>
+        <p>Voltado para produtores de médio e grande porte que buscam maior controle e produtividade em suas lavouras.</p>
+      </div>
+      <div class="card">
+        <h4>Cooperativas Agrícolas</h4>
+        <p>Facilita o monitoramento coletivo de dados agrícolas, promovendo eficiência e decisões baseadas em dados.</p>
+      </div>
+      <div class="card">
+        <h4>Consultores Agrônomos e Técnicos</h4>
+        <p>Ferramenta ideal para acompanhar e orientar propriedades rurais com base em dados em tempo real.</p>
+      </div>
+      <div class="card">
+        <h4>Empresas Agroindustriais</h4>
+        <p>Integra tecnologia na cadeia produtiva, da lavoura à indústria, com dados para maior previsibilidade.</p>
+      </div>
+      <div class="card">
+        <h4>Instituições de Pesquisa e Extensão Rural</h4>
+        <p>Apoia estudos e ações de extensão com dados reais e acessíveis para análise e capacitação técnica.</p>
+      </div>
+    </div>
   </section>
+
+  <h3 style="text-align: center;">Pronto para revolucionar sua lavoura?</h3>
+  <section class="section" id="sectionForm">
+    <div id="formDivider1">
+      <img src="src/images/formImage.jpeg" alt="" />
+    </div>
+    <div id="formDivider2">
+      <form>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required /><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+        <div class="gender">
+          <label>Gênero:</label>
+          <input type="radio" id="masculino" name="genero" value="Masculino" />
+          <label for="masculino">Masculino</label>
+          <input type="radio" id="feminino" name="genero" value="Feminino" />
+          <label for="feminino">Feminino</label>
+        </div>
+        <label for="interesse">Opções de Interesse:</label>
+        <select id="interesse" name="interesse">
+          <option value="sensores">Sensores de Clima</option>
+          <option value="solo">Monitoramento de Solo</option>
+          <option value="irrigacao">Automação de Irrigação</option>
+          <option value="todos">Todos os itens</option>
+        </select>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="cta" id="contato"></section>
 
   <footer>
     <p>&copy; 2025 Agrotech. Todos os direitos reservados.</p>
   </footer>
 </body>
+
 </html>
