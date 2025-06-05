@@ -1,9 +1,116 @@
-:root{
-    --royalBlue: #1E73D9;
-    --green: #75CE69;
-    --lightBlue: #7FE6C1;
+:root {
+  --royalBlue: #1E73D9;
+  --green: #75CE69;
+  --lightBlue: #7FE6C1;
+  --textColor: #2e3d2f;
+  --backgroundColor: #f5f9f5;
+  --ctaBackground: #e8f5e9;
+  --buttonHover: #388e3c;
+  --buttonBackground: #43a047;
+  --white: #ffffff;
 }
 
-*{
-    margin:0px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--green);
+  color: var(--white);
+  padding: 2rem;
+  text-align: center;
+}
+
+header img {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1618221199374-9cfa5b78f1a0');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.features,
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 1rem;
+}
+
+.cta {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: var(--ctaBackground);
+}
+
+.cta button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: var(--white);
+  background: var(--buttonBackground);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background: var(--buttonHover);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--green);
+  color: var(--white);
 }
